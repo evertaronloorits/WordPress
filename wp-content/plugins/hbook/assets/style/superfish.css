@@ -1,0 +1,82 @@
+
+/*** ESSENTIAL STYLES ***/
+.sf-omnivo_calendar-menu, .sf-omnivo_calendar-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-omnivo_calendar-menu {
+	line-height:	1.0;
+}
+.sf-omnivo_calendar-menu ul {
+	position:		absolute;
+	top:			-999em !important;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-omnivo_calendar-menu ul li {
+	width:			100%;
+}
+.sf-omnivo_calendar-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-omnivo_calendar-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-omnivo_calendar-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-omnivo_calendar-menu li:hover ul,
+.sf-omnivo_calendar-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-omnivo_calendar-menu li:hover li ul,
+ul.sf-omnivo_calendar-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-omnivo_calendar-menu li li:hover ul,
+ul.sf-omnivo_calendar-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-omnivo_calendar-menu li li:hover li ul,
+ul.sf-omnivo_calendar-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-omnivo_calendar-menu li li li:hover ul,
+ul.sf-omnivo_calendar-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-omnivo_calendar-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-omnivo_calendar-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-omnivo_calendar-menu a, .sf-omnivo_calendar-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#13a;
+}
+.sf-omnivo_calendar-menu li {
+	background:		#BDD2FF;
+}
+.sf-omnivo_calendar-menu li li {
+	background:		#AABDE6;
+}
+.sf-omnivo_calendar-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-omnivo_calendar-menu li:hover, .sf-omnivo_calendar-menu li.sfHover,
+.sf-omnivo_calendar-menu a:focus, .sf-omnivo_calendar-menu a:hover, .sf-omnivo_calendar-menu a:active {
+	background:		#CFDEFF;
+	outline:		0;
+}

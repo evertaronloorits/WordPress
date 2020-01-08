@@ -1,0 +1,429 @@
+.omnivo_calendar_event_responsive_image,
+.omnivo_calendar_event_page_left .attachment-event-post-thumb
+{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width:1009px)
+{
+	.omnivo_calendar_event_theme_page .textwidget p:first-child
+	{
+		margin-top: 23px;
+	}
+	.omnivo_calendar_event_theme_page h2
+	{
+		font-size: 30px;
+	}
+	.omnivo_calendar_event_theme_page h3
+	{
+		font-size: 22px;
+	}
+	.omnivo_calendar_event_theme_page h4
+	{
+		font-size: 18px;
+	}
+	.omnivo_calendar_event_theme_page h5
+	{
+		font-size: 16px;
+	}
+	.omnivo_calendar_event_theme_page p,
+	.omnivo_calendar_event_items_list li
+	{
+		font-size: 14px;
+	}
+	.omnivo_calendar_event_theme_page
+	{
+		padding: 20px;
+		width: 710px;
+	}
+	.omnivo_calendar_event_page_left
+	{
+		width: 480px;
+	}
+	.omnivo_calendar_event_page_right
+	{
+		width: 210px;
+	}
+	.omnivo_calendar_event_column_left
+	{
+		margin-right: 10px;
+	}
+	.rtl .omnivo_calendar_event_column_left
+	{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+	.omnivo_calendar_event_column_left, .omnivo_calendar_event_column_right
+	{
+		width: 235px;
+	}
+	.omnivo_calendar_event_hours li
+	{
+		width: 184px;
+		margin: 0 23px 23px 0;
+		padding: 15px 20px;
+	}
+	.rtl .omnivo_calendar_event_hours li
+	{
+		margin: 0 0px 23px 23px;
+	}
+	.omnivo_calendar_upcoming_events li
+	{
+		width: 210px;
+	}
+	.omnivo_calendar_upcoming_events li a
+	{
+		padding: 10px;
+	}
+	.omnivo_calendar_event_items_list li.type_info
+	{
+		padding: 5px 0;
+	}
+	.omnivo_calendar_event_margin_top_27
+	{
+		margin-top: 20px !important;
+	}
+	.omnivo_calendar_event_theme_page h3
+	{
+		margin-top: 15px;
+	}
+
+	.omnivo_calendar_responsive .omnivo_calendar th, .omnivo_calendar_responsive .omnivo_calendar .event_container,
+	.omnivo_calendar_responsive .omnivo_calendar_tooltip .omnivo_calendar_tooltip_content
+	{
+		padding: 4px 4px 5px;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar td
+	{
+		height: 18px;
+	}
+	.omnivo_calendar .event span.available_slots + .event_hour_booking_wrapper.always
+	{
+		margin-bottom: 0;
+	}
+	.omnivo_calendar td .event_hour_booking_wrapper.always
+	{
+		margin-bottom: 0;
+	}
+	.omnivo_calendar td.omnivo_calendar_single_event .event_hour_booking_wrapper.always
+	{
+		padding: 0 4px;
+		margin-bottom: 5px;
+	}
+	.omnivo_calendar_sidebar_box
+	{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width:767px)
+{
+	.omnivo_calendar_event_theme_page,
+	.omnivo_calendar_event_page_left,
+	.omnivo_calendar_event_page_right,
+	.omnivo_calendar_upcoming_events li
+	{
+		width: 422px;
+	}
+	.omnivo_calendar_event_page_right
+	{
+		margin-top: 50px;
+	}
+	.omnivo_calendar_event_column_left, .omnivo_calendar_event_column_right
+	{
+		width: 206px;
+	}
+	.omnivo_calendar_event_hours li
+	{
+		width: 368px;
+		margin: 0 0 23px;
+		padding: 15px 25px;
+	}
+	.omnivo_calendar_event_hours li:last-child
+	{
+		margin-bottom: 0;
+	}
+	.omnivo_calendar_upcoming_events li a
+	{
+		padding: 10px 20px;
+	}
+
+	.omnivo_calendar_responsive .omnivo_calendar
+	{
+		display: none;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar.small
+	{
+		display: block;
+	}
+	/* --- navigation wrapper --- */
+	.omnivo_calendar_double_buttons .omnivo_calendar_navigation_cell:first-child
+	{
+		margin: 0 0 10px 0 !important;
+		width: 100%;
+	}
+	.omnivo_calendar_double_buttons .omnivo_calendar_navigation_cell:last-child
+	{
+		margin: 0 0 30px 0 !important;
+	}
+	.omnivo_calendar_tabs .omnivo_calendar_navigation_cell:first-child
+	{
+		margin: 0 0 30px 0 !important;
+	}
+	/* --- tabs box navigation --- */	
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:first-of-type
+	{
+		margin-right: 10px !important;
+	}
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:last-of-type
+	{
+		margin-right: 0 !important;
+	}
+	.rtl .omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:first-of-type
+	{
+		margin-left: 10px !important;
+		margin-right: 0 !important;
+	}
+	.rtl .omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:last-of-type
+	{
+		margin-left: 0 !important;
+	}
+	.omnivo_calendar_double_buttons .tabs_box_navigation.sf-omnivo_calendar-menu .tabs_box_navigation_selected
+	{
+		padding: 15px 15px !important;
+		width: 174px;
+	}
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu li ul
+	{
+		width: 204px;
+	}
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu li ul li
+	{
+		width: 194px;
+	}
+	.omnivo_calendar_double_buttons .tabs_box_navigation label
+	{
+		font-size: 16px !important;
+	}	
+	/* --- booking --- */
+	.omnivo_calendar_booking .omnivo_calendar_booking_message_wrapper
+	{
+		width: auto;
+	}
+	.omnivo_calendar_booking .omnivo_calendar_booking_message
+	{
+		margin: 10px 10px 15px;
+	}
+	.omnivo_calendar_booking .omnivo_calendar_booking_message h2
+	{
+		font-size: 22px;
+		line-height: 33px;
+		margin-bottom: 12px;
+	}	
+	.omnivo_calendar_booking .omnivo_calendar_booking_message p
+	{
+		font-size: 14px;
+		line-height: 21px;
+		margin-top: 15px;
+	}
+	.omnivo_calendar_booking .event_details_wrapper
+	{
+		padding: 9px 13px 10px;
+	}
+	.omnivo_calendar_booking p.event_details
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.omnivo_calendar_booking a
+	{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.omnivo_calendar_booking .omnivo_calendar_btn_wrapper
+	{
+		margin-top: 15px;
+	}
+	.omnivo_calendar_booking a.omnivo_calendar_btn
+	{
+		min-width: 150px;
+	}
+	.omnivo_calendar_event_url
+	{
+		padding: 12px;
+		font-size: 13px;
+	}
+	.omnivo_calendar_booking form.omnivo_calendar_booking_form
+	{
+		margin-top: 15px;
+	}
+	.omnivo_calendar_booking form.omnivo_calendar_booking_form .omnivo_calendar_field_wrapper .omnivo_calendar_field
+	{
+		font-size: 14px;
+		line-height: 21px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.omnivo_calendar_booking form.omnivo_calendar_booking_form .omnivo_calendar_field_wrapper textarea.omnivo_calendar_field
+	{
+		height: 64px;
+	}
+	.omnivo_calendar_booking form.omnivo_calendar_booking_form .omnivo_calendar_field_wrapper .omnivo_calendar_slots_number_wrapper input[type="button"]
+	{
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width:479px)
+{
+	.omnivo_calendar_event_theme_page,
+	.omnivo_calendar_event_page_left,
+	.omnivo_calendar_event_page_right,
+	.omnivo_calendar_upcoming_events li,
+	.omnivo_calendar_event_column_left,
+	.omnivo_calendar_event_column_right
+	{
+		width: 280px;
+	}
+	.omnivo_calendar_event_hours li
+	{
+		width: 236px;
+		padding: 15px 20px;
+	}
+	.omnivo_calendar_event_theme_page
+	{
+		padding: 10px;
+	}
+	.omnivo_calendar_event_column_left
+	{
+		margin-right: 0;
+	}
+	.rtl .omnivo_calendar_event_column_left
+	{
+		margin-left: 0;
+	}
+	.omnivo_calendar_event_column_right
+	{
+		margin-top: 23px;
+	}
+	.omnivo_calendar_event_column_left .omnivo_calendar_event_items_list
+	{	
+		padding-bottom: 0;
+	}
+
+	.omnivo_calendar_responsive .omnivo_calendar.small .omnivo_calendar_items_list div.event_container
+	{
+		width: 148px;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar.small .omnivo_calendar_items_list div.value
+	{
+		width: 112px;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar.small.use_colors .omnivo_calendar_items_list li
+	{
+		padding: 12px 5px !important;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar.small.use_colors .omnivo_calendar_items_list div.event_container
+	{
+		width: 138px;
+	}
+	.omnivo_calendar_responsive .omnivo_calendar.small .box_header
+	{
+		font-size: 14px !important;
+	}
+	/* --- navigation wrapper --- */
+	.omnivo_calendar_navigation_cell
+	{
+		margin-right: 0 !important;
+	}
+	.omnivo_calendar_navigation_cell:first-child
+	{
+		margin-bottom: 10px !important;
+		width: 100%;
+	}
+	.omnivo_calendar_navigation_cell:last-child
+	{
+		margin-bottom: 30px !important;
+	}
+	/* --- tabs box navigation --- */
+	.omnivo_calendar_responsive.tabs_box_navigation.sf-omnivo_calendar-menu .tabs_box_navigation_selected
+	{
+		width: 220px;
+	}
+	.omnivo_calendar_responsive.tabs_box_navigation.sf-omnivo_calendar-menu li ul
+	{
+		width: 258px;
+	}	
+	.sf-omnivo_calendar-menu li ul li
+	{
+		width: 248px;
+	}
+	.omnivo_calendar_double_buttons .tabs_box_navigation,
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:first-of-type
+	{
+		margin-right: 0 !important;
+	}
+	.rtl .omnivo_calendar_double_buttons .tabs_box_navigation,
+	.rtl .omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:first-of-type
+	{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu:first-of-type
+	{
+		margin-bottom: 10px !important;
+	}
+	.omnivo_calendar_double_buttons .omnivo_calendar_responsive.tabs_box_navigation.sf-omnivo_calendar-menu .tabs_box_navigation_selected
+	{
+		width: 220px;
+		padding: 15px 19px !important;
+	}
+	.omnivo_calendar_double_buttons .omnivo_calendar_responsive.tabs_box_navigation.sf-omnivo_calendar-menu li ul
+	{
+		width: 258px;
+	}
+	.omnivo_calendar_double_buttons .sf-omnivo_calendar-menu li ul li
+	{
+		width: 248px;
+	}
+	.omnivo_calendar_double_buttons .tabs_box_navigation label
+	{
+		font-size: 18px !important;
+	}
+	/* --- booking --- */
+	.omnivo_calendar_booking .omnivo_calendar_booking_message h2
+	{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.omnivo_calendar_booking p.event_details
+	{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.omnivo_calendar_booking p
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.omnivo_calendar_booking .omnivo_calendar_btn_wrapper
+	{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.omnivo_calendar_booking a.omnivo_calendar_btn
+	{
+		font-size: 14px;
+		min-width: 110px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 10px 5px 0;
+	}
+}
+@media screen and (max-height:479px)
+{
+	.omnivo_calendar_booking .omnivo_calendar_booking_message_wrapper
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+

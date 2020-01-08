@@ -1,0 +1,417 @@
+
+.omnivo_calendar_free_notice {
+	border: 1px solid #4F800D;
+	padding: 5px;
+	margin: 15px 0;
+	background: #83AF24;
+	background: #a73737; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #a73737, #7a2828); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #a73737, #7a2828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+}
+
+.omnivo_calendar_free_notice_button_container {
+	box-sizing: border-box;
+	display: inline-block;
+	background: #df3b3b;
+	padding: 5px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	width: 266px;
+}
+
+.omnivo_calendar_free_notice_button_border {
+	border: 1px solid #006699;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: #029DD6;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#029DD6), to(#0079B1));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #0079B1, #029DD6);
+}
+
+.omnivo_calendar_free_notice_button_container .omnivo-pro-button {
+	width: 100%;
+	display: inline-block;
+	padding: 9px 0 8px 0;
+
+}
+
+.omnivo_calendar_free_notice_description {
+	position: absolute;
+	top: 22px;
+	left: 285px;
+	margin-left: 25px;
+	color: #FFF;
+	font-size: 15px;
+}
+
+.omnivo-pro-section-wrap {
+	position: relative;
+}
+
+.omnivo-pro-section {
+	display:flex;
+	position:absolute;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	background: rgba(255,255,255,.7);
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	text-align: center;
+}
+
+.omnivo-pro-section p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+
+.omnivo-pro-button {
+	font-weight: bold;
+	border: 1px solid #029DD6;
+	border-top: 1px solid #06B9FD;
+	font-size: 15px;
+	text-align: center;
+	padding: 9px 15px 8px 15px;
+	color: #FFF;
+	background: #029DD6;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#029DD6), to(#0079B1));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #0079B1, #029DD6);
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	cursor: pointer;
+	margin: 0;
+	text-decoration: none;
+}
+
+.omnivo-pro-button:hover {
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#0079B1), to(#0092BF));
+	color: #FFF;
+}
+
+/* --- events hours list --- */
+#event_hours_list
+{
+	background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+	padding: 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#event_hours_list li
+{
+	margin: 0 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	border-bottom: 1px solid #DFDFDF;
+}
+#event_hours_list li:first-child
+{
+	margin-top: 0;
+}
+#event_hours_list .operation_button
+{
+	float: right;
+	cursor: pointer;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+.rtl #event_hours_list .operation_button 
+{
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+}
+#event_hours_list .edit_hour_event_loader
+{
+	cursor: default;
+	display: none;
+	margin-top: 0;
+}
+#event_hours_table textarea
+{
+	width: 250px;
+}
+#event_hours_list ul.booking_list
+{
+	display: none;
+}
+#event_bookings_table
+{
+	margin-top: 30px;
+}
+#event_bookings_table td:first-child
+{
+	width: 106px;
+}
+#event_bookings_table td:last-child
+{
+	width: 248px;
+}
+#event_bookings_table h3
+{
+	margin-top: 0;
+}
+#wpbody-content .wrap.omnivo_calendar_settings_section
+{
+	margin: 50px 0 0 0;
+}
+#wpbody-content .wrap.omnivo_calendar_settings_section.first
+{
+	margin: 15px 0 0 0;
+}
+#wpbody-content .wrap.omnivo_calendar_settings_section h2
+{
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+#omnivo_calendar_settings .spinner
+{
+    float: none;
+    margin: -4px 3px;
+}
+#event_config .color,
+.widget-content .color
+{
+	width: 70px;
+}
+#omnivo_calendar_settings .color_preview,
+#event_config .color_preview,
+.widget-content .color_preview
+{
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 1px 5px 1px 1px;
+	background: transparent;
+	border: 1px solid #E0E0E0;
+}
+.rtl #omnivo_calendar_settings .color_preview,
+.rtl #event_config .color_preview,
+.rtl .widget-content .color_preview
+{
+	float: right;
+	margin: 1px 1px 1px 5px;
+}
+.widget-content .color_preview 
+{
+    display: inline-block;
+    float: none;
+    margin: 1px;
+    vertical-align: top;
+}
+.omnivo_calendar_shortcode_container .copy_info
+{
+	display: none;
+}
+.omnivo_calendar_table.form-table
+{
+}
+.omnivo_calendar_table.form-table tr:first-child th,
+.omnivo_calendar_table.form-table tr:first-child td
+{
+    padding-top: 0;
+}
+.omnivo_calendar_table.form-table tr
+{
+	border-bottom: 1px solid #EFEFEF;
+}
+.omnivo_calendar_table.form-table tr.no-border
+{
+	border-bottom: none;
+}
+.omnivo_calendar_table.form-table tr:first-child th,
+.omnivo_calendar_table.form-table tr:first-child td
+{
+	border-bottom: none;
+}
+.omnivo_calendar_table.form-table td[colspan="3"]
+{
+	padding-left: 0;
+}
+.omnivo_calendar_table.form-table th,
+.omnivo_calendar_table.form-table td
+{
+	vertical-align: middle;
+}
+.omnivo_calendar_table.form-table .description
+{
+	display: block;
+    margin-left: 20px;
+    width: 300px;
+}
+.omnivo_calendar_table.form-table .description.long
+{
+	margin-left: 0;
+	width: 100%;
+}
+.rtl .omnivo_calendar_table.form-table .description
+{
+	margin-left: 0;
+	margin-right: 20px;
+}
+.omnivo_calendar_table.form-table  select,
+.omnivo_calendar_table.form-table .regular-text
+{
+	width: 200px;
+}
+.omnivo_calendar_table.form-table textarea
+{
+	min-height: 100px;
+	resize: vertical;
+}
+#omnivo_calendar_settings,
+#omnivo_calendar_events_settings,
+#omnivo_calendar_shortcodes
+{
+	margin: 0;
+}
+#omnivo_calendar_configuration_tabs,
+#omnivo_calendar_events_settings div,
+#omnivo_calendar_shortcodes div
+{
+	width: 830px;
+	margin-top: 20px;
+}
+#omnivo_calendar_shortcodes select,
+#omnivo_calendar_shortcodes input
+{
+	width: 255px;
+}
+#omnivo_calendar_shortcodes div,
+#omnivo_calendar_events_settings div
+{
+	margin: 0;
+}
+#omnivo_calendar_events_settings>div
+{
+	background: #FFF;
+	padding: 20px 30px;
+}
+.fontSubsetRow
+{
+	display: none;
+}
+.omnivo_calendar_hide
+{
+	display: none !important;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-panel,
+.omnivo_calendar_shortcode_container
+{
+	clear: both;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+	background: #FFF;
+	padding: 20px 30px;
+}
+.omnivo_calendar_shortcode_container
+{
+	width: 770px;
+	margin-top: 20px;
+}
+.omnivo_calendar_shortcode_container *
+{
+	vertical-align: baseline;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-nav
+{
+	margin: 0;
+	padding: 0;
+	background: transparent;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.rtl #omnivo_calendar_configuration_tabs .ui-tabs-nav
+{
+	float: right;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-nav li
+{
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: block;
+	float: left;
+}
+.rtl #omnivo_calendar_configuration_tabs .ui-tabs-nav li
+{
+	float: right;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-nav li a
+{
+	display: block;
+	background: #333;
+	color: #EEE;
+	text-decoration: none;
+	padding: 15px 20px;
+	outline: none;
+	font-size: 14px;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-nav li a:hover
+{
+	background: #111;
+	color: #2EA2CC;
+}
+#omnivo_calendar_configuration_tabs .ui-tabs-nav .ui-tabs-active a,
+#omnivo_calendar_configuration_tabs .ui-tabs-nav .ui-tabs-active a:hover
+{
+	background: #0074A2;
+	color: #FFF;
+}
+.shortcode_info
+{
+	display: none;
+	margin: 5px 0;
+	padding: 5px;
+}
+#dummy_content_tick,
+#event_slug_tick,
+#shortcode_tick
+{
+	display: none;
+	margin-top: 5px;
+}
+/* --- admin menu --- */
+#adminmenu #menu-posts-omnivo_weekdays .menu-icon-post div.wp-menu-image:before
+{
+	content: "\f145";
+}
+#adminmenu #menu-posts-events .menu-icon-post div.wp-menu-image:before
+{
+	content: "\f157";
+}
+/* --- booking export --- */
+#omnivo_calendar_bookings_export>div
+{
+	background: #FFF;
+	padding: 20px 30px;
+}
+#omnivo_calendar_bookings_export select
+{
+	width: 200px;
+}
+/* --- visual composer --- */
+.vc_element-icon.icon-wpb-layer-omnivo_calendar,
+.wpb_omnivo_calendar .wpb_element_wrapper .vc_element-icon
+{
+	background-image: url("../images/calendar.png");
+}
+/* remove gray bg color that was set by default WP styles */
+.vc_ui-panel[data-vc-shortcode="omnivo_calendar"] .edit_form_line .bar
+{
+	background-color: #ffffff;
+}
