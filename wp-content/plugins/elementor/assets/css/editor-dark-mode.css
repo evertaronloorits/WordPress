@@ -1,5 +1,4 @@
-/*! elementor - v2.7.6 - 08-12-2019 */
-/*! elementor - v2.7.5 - 05-12-2019 */
+/*! elementor - v2.8.3 - 01-01-2020 */
 body {
   color: #E0E1E3; }
   body .pcr-app {
@@ -113,6 +112,8 @@ select {
     .elementor-panel .elementor-element:hover .title,
     .elementor-panel .elementor-element:hover .icon {
       color: #71D7F7; }
+  .elementor-panel .widget-inside {
+    background-color: inherit; }
   .elementor-panel #elementor-panel-footer {
     background-color: #26292C; }
   .elementor-panel .elementor-panel-footer-sub-menu-wrapper {
@@ -302,6 +303,8 @@ a.elementor-responsive-switcher {
 .elementor-control-type-tab {
   background-color: #34383C;
   border-color: #64666A; }
+  .elementor-control-type-tab:first-child {
+    border-color: #64666A; }
   .elementor-control-type-tab.elementor-tab-active {
     background-color: #7D7E82;
     border-color: #7D7E82; }

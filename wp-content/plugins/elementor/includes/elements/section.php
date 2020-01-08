@@ -5,6 +5,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+use Elementor\Core\Schemes;
+
 /**
  * Elementor section element.
  *
@@ -503,6 +505,7 @@ class Element_Section extends Element_Base {
 				'type' => Controls_Manager::STRUCTURE,
 				'default' => '10',
 				'render_type' => 'none',
+				'style_transfer' => false,
 			]
 		);
 
@@ -1020,7 +1023,7 @@ class Element_Section extends Element_Base {
 			]
 		);
 
-		if ( in_array( Scheme_Color::get_type(), Schemes_Manager::get_enabled_schemes(), true ) ) {
+		if ( in_array( Schemes\Color::get_type(), Schemes\Manager::get_enabled_schemes(), true ) ) {
 			$this->add_control(
 				'colors_warning',
 				[
